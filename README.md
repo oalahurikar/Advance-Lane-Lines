@@ -18,6 +18,8 @@ with dropout rate of 70 percent.
 Additional images of classes with short of images showed much improved accuracy. Normalizing and gray scaling improved accuracy as well
 and also helped to reduce training time. After changing hyper parameters and changing drop out locations in CNN model I end up with 95 
 percent accuracy after 30 epochs.
+![image](https://github.com/oalahurikar/Advance-Lane-Lines/assets/13579623/002ddd80-57da-4a93-819a-ba8c5b2df055)
+
 # Performance on New Images
 My model predicts all images with accuracy of 83 % except stop sign. I am assuming the sign image angle is affecting model prediction. Prospective transform might resolve this issue.
 Model Certainty - Softmax Probabilities
