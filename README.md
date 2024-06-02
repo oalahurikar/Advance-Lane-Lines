@@ -4,6 +4,8 @@ Advance Lane Line Detection for Self driving car
 With original training data set results of network was over fitted. Because some image class had few no of images. After adding additional
 images to class with lacking images network accuracy improved a lot. I first trained network on normalized color images, in next attempt I 
 gray scaled images and normalized it. I found there is not much difference in accuracy but gray scaled image helped to train network faster.  
+![image](https://github.com/oalahurikar/Advance-Lane-Lines/assets/13579623/4c6ca262-94d3-464c-b89d-35fefbfd8bf5)
+
 # Model Architecture
 I used LeNet CNN architecture with 2 convolutional layers and 3 fully connected layers. First I just used max pooling and my accuracy
 was about 91 % for 30 epochs, but top 5 probabilities showed me some of images predicted wrong because of over fitting. So I introduce drop out, which resolved over fitting issue, also helped to predict top 5 probabilities in reasonable range.  Due to gray scaling my network needed 32x32x1 input images.
